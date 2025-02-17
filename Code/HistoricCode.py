@@ -43,8 +43,8 @@ merge12= pd.merge(dfcollisions2022, dfvehicles2022, how='outer')
 merge13= pd.merge(merge12, dfcasualties2022, how='outer')
 
 
-merge4.to_csv(r'C:\Users\emma.morrice\OneDrive - D.C. Thomson & Co Ltd\Documents/A96_roadtrafficdata2019.csv')
-merge7.to_csv(r'C:\Users\emma.morrice\OneDrive - D.C. Thomson & Co Ltd\Documents/A96_roadtrafficdata2020.csv')
-merge10.to_csv(r'C:\Users\emma.morrice\OneDrive - D.C. Thomson & Co Ltd\Documents/A96_roadtrafficdata2021.csv')
-merge13.to_csv(r'C:\Users\emma.morrice\OneDrive - D.C. Thomson & Co Ltd\Documents/A96_roadtrafficdata2022.csv')
-merge2.to_csv(r'C:\Users\emma.morrice\OneDrive - D.C. Thomson & Co Ltd\Documents/A96_roadtrafficdata2023.csv')
+merge4.to_csv(r'code/A96_roadtrafficdata2019.csv')
+merge7.to_csv(r'code/A96_roadtrafficdata2020.csv')
+merge10.to_csv(r'code/A96_roadtrafficdata2021.csv')
+merge13.to_csv(r'code/A96_roadtrafficdata2022.csv')
+merge2.to_csv(r'code/A96_roadtrafficdata2023.csv')
